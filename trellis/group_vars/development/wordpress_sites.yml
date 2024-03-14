@@ -1,0 +1,16 @@
+# Created by trellis-cli v1.11.1
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  pulsepfe24.local:
+    site_hosts:
+    - canonical: pulsepfe24.local
+    local_path: ../site
+    admin_email: admin@pulsepfe24.dev
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
